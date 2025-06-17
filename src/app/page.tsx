@@ -6,7 +6,7 @@ import Hero from '@/components/landing/Hero';
 import About from '@/components/landing/About';
 import Objectives from '@/components/landing/Objectives';
 import Sectors from '@/components/landing/Sectors';
-import Agenda from '@/components/Agenda';
+import Agenda from '@/components/landing/Agenda';
 import Speakers from '@/components/Speakers';
 import Registration from '@/components/Registration';
 import Contact from '@/components/Contact';
