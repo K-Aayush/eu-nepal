@@ -9,7 +9,7 @@ import Sectors from "@/components/landing/Sectors";
 import Agenda from "@/components/landing/Agenda";
 import Speakers from "@/components/landing/Speakers";
 import Registration from "@/components/landing/Registration";
-import Contact from "@/components/Contact";
+import Contact from "@/components/landing/Contact";
 import Footer from "@/components/Footer";
 
 export default function Home() {
