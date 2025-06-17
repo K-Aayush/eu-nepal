@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Header from '@/components/Header';
-import Hero from '@/components/Hero';
+import Hero from '@/components/landing/Hero';
 import About from '@/components/About';
 import Objectives from '@/components/Objectives';
 import Sectors from '@/components/Sectors';
