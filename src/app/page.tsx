@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Header from '@/components/Header';
 import Hero from '@/components/landing/Hero';
-import About from '@/components/About';
+import About from '@/components/landing/About';
 import Objectives from '@/components/Objectives';
 import Sectors from '@/components/Sectors';
 import Agenda from '@/components/Agenda';
