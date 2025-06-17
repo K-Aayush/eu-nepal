@@ -8,7 +8,7 @@ import Objectives from "@/components/landing/Objectives";
 import Sectors from "@/components/landing/Sectors";
 import Agenda from "@/components/landing/Agenda";
 import Speakers from "@/components/landing/Speakers";
-import Registration from "@/components/Registration";
+import Registration from "@/components/landing/Registration";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
