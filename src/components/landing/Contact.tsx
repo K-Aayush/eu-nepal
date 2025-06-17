@@ -147,8 +147,8 @@ export default function Contact() {
 
           {/* Contact Form */}
           <div className="lg:col-span-2">
-            <Card className="shadow-lg">
-              <CardHeader className="bg-gradient-to-r from-blue-600 to-green-600 text-white">
+            <Card className="shadow-lg p-0">
+              <CardHeader className="bg-gradient-to-r from-blue-600 to-green-600 text-white rounded-t-xl py-2">
                 <CardTitle className="text-2xl">Send Us a Message</CardTitle>
                 <p className="text-blue-100">We`ll respond within 24 hours</p>
               </CardHeader>
@@ -233,7 +233,7 @@ export default function Contact() {
 
                   <Button
                     type="submit"
-                    className="w-full bg-blue-600 hover:bg-blue-700 text-lg py-3"
+                    className="w-full bg-blue-600 hover:bg-blue-700 text-lg py-3 cursor-pointer"
                   >
                     <Send className="h-5 w-5 mr-2" />
                     Send Message

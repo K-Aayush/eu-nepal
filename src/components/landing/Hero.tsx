@@ -57,14 +57,14 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
             <Button
               size="lg"
-              className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-semibold px-8 py-3"
+              className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-semibold px-8 py-3 cursor-pointer"
             >
               Register Now
             </Button>
             <Button
               size="lg"
               variant="outline"
-              className="border-white text-white hover:bg-white hover:text-gray-900 px-8 py-3"
+              className="border-white text-gray-800 hover:bg-gray-300 hover:text-gray-900 px-8 py-3 cursor-pointer"
             >
               Learn More
             </Button>

@@ -62,8 +62,8 @@ export default function Registration() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           {/* Registration Form */}
           <div className="lg:col-span-2">
-            <Card className="shadow-lg">
-              <CardHeader className="bg-blue-600 text-white">
+            <Card className="shadow-lg p-0">
+              <CardHeader className="bg-blue-600 text-white rounded-t-xl py-2">
                 <CardTitle className="text-2xl">Registration Form</CardTitle>
                 <p className="text-blue-100">
                   Please fill in all required fields
@@ -233,7 +233,7 @@ export default function Registration() {
 
                   <Button
                     type="submit"
-                    className="w-full bg-blue-600 hover:bg-blue-700 text-lg py-3"
+                    className="w-full bg-blue-600 hover:bg-blue-700 text-lg py-3 cursor-pointer"
                   >
                     Submit Registration
                   </Button>
@@ -245,8 +245,8 @@ export default function Registration() {
           {/* Registration Info */}
           <div className="space-y-8">
             {/* Event Details */}
-            <Card className="shadow-lg">
-              <CardHeader className="bg-green-600 text-white">
+            <Card className="shadow-lg p-0">
+              <CardHeader className="bg-green-600 text-white rounded-t-xl py-2">
                 <CardTitle>Event Details</CardTitle>
               </CardHeader>
               <CardContent className="p-6 space-y-4">
@@ -284,8 +284,8 @@ export default function Registration() {
             </Card>
 
             {/* Registration Benefits */}
-            <Card className="shadow-lg">
-              <CardHeader className="bg-yellow-500 text-white">
+            <Card className="shadow-lg p-0">
+              <CardHeader className="bg-yellow-500 text-white rounded-t-xl py-2">
                 <CardTitle>What`s Included</CardTitle>
               </CardHeader>
               <CardContent className="p-6">

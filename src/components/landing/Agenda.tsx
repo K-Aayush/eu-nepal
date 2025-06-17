@@ -141,8 +141,8 @@ export default function Agenda() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Day 1 */}
-          <Card className="shadow-lg">
-            <CardHeader className="bg-blue-600 text-white">
+          <div className="shadow-lg rounded-lg">
+            <CardHeader className="bg-blue-600 text-white rounded-t-lg py-2">
               <CardTitle className="flex items-center space-x-2">
                 <Calendar className="h-6 w-6" />
                 <span>Day 1 - Thursday, November 20</span>
@@ -177,11 +177,11 @@ export default function Agenda() {
                 ))}
               </div>
             </CardContent>
-          </Card>
+          </div>
 
           {/* Day 2 */}
-          <Card className="shadow-lg">
-            <CardHeader className="bg-green-600 text-white">
+          <div className="shadow-lg rounded-lg">
+            <CardHeader className="bg-green-600 text-white rounded-t-lg py-2">
               <CardTitle className="flex items-center space-x-2">
                 <Calendar className="h-6 w-6" />
                 <span>Day 2 - Friday, November 21</span>
@@ -214,7 +214,7 @@ export default function Agenda() {
                 ))}
               </div>
             </CardContent>
-          </Card>
+          </div>
         </div>
 
         <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
